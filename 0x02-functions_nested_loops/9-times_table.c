@@ -24,7 +24,7 @@ void times_table(void)
 			}
 			else if (rep < 10)
 			{
-				_putchar('');
+				_putchar(' ');
 				_putchar('0' + rep);
 			}
 			else
@@ -35,7 +35,7 @@ void times_table(void)
 			if (b < 9)
 			{
 				_putchar(',');
-				_putchar('');
+				_putchar(' ');
 			}
 			b++;
 		}
