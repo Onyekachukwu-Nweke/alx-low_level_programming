@@ -5,7 +5,6 @@
  * @a : first integer
  * @b : second integer
  * @c : third integer
- *
  * Return: returns largest number
  */
 
@@ -21,13 +20,13 @@ int largest_number(int a, int b, int c)
 	{
 		largest = b;
 	}
-	else if(c > b)
+	else if (c > b)
 	{
-		largest = c;
+	largest = c;
 	}
 	else
 	{
-		largest = b;
+	largest = b;
 	}
 
 	return (largest);
