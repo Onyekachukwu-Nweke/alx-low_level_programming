@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *print_squares - prints #
+ *print_square - prints #
  *@size: det. how many # to be printed
  */
 
-void print_squares(int size)
+void print_square(int size)
 {
 	if (size > 0)
 	{
