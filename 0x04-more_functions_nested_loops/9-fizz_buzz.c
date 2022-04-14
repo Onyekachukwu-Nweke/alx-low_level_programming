@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  *main - main entry point
@@ -24,9 +25,14 @@ int main(void)
 		{
 			printf(" Buzz");
 		}
+		else if (i == 1)
+		{
+			printf("%d", i);
+		}
 		else
 			printf(" %d", i);
 	}
-	putchar('\n');
+	printf("\n");
+
 	return (0);
 }
