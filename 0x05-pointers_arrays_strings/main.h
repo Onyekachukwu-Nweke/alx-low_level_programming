@@ -10,6 +10,6 @@ void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *s);
-void print_array(int *a, n);
+void print_array(int *a, int n);
 
 #endif
