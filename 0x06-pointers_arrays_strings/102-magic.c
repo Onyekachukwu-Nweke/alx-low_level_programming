@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - contains main block
+ * Return: Always 0.
+ */
 
 int main(void)
 {
