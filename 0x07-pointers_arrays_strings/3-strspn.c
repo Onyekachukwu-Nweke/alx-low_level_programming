@@ -1,31 +1,28 @@
-#include "main .h"
-
+#include "main.h"
 /**
- * *_strspn - return the number of occurent of a string
- * @s: string to check
- * @accept: character to match
- * Return: int
+ * _strspn - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, cmp = 0;
+	unsigned int n = 0;
+	int r;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (*s)
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		for (r = 0; accept[r]; r++)
 		{
-			if (s[i] == accept[j])
+			if (*s == accept[r])
 			{
-				cmp++;
+				n++;
 				break;
 			}
-			if (accept == '\0')
-			{
-				break;
-			}
+			else if (accept[r + 1] == '\0')
+				return (n);
 		}
+		s++;
 	}
-
-	return (cmp);
+	return (n);
 }
