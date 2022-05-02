@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - contains the main function
+ * @argc: integer variable
+ * @argv: list
+ * Return: Always 0.
+ */
+
+int main(int argc, char **argv)
+{
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
+	return (0);
+}
