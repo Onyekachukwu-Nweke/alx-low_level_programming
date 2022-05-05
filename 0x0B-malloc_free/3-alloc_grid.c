@@ -12,7 +12,7 @@
 int **alloc_grid(int width, int height)
 {
 	int i, j;
-	char **tab;
+	int **tab;
 
 	tab = malloc(height * sizeof(*tab));
 
