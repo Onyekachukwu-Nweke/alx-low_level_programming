@@ -13,7 +13,8 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(sp, n);
 
-	if (n != 0){
+	if (n != 0)
+	{
 		for (i = 0; i < n; i++)
 			sum += va_arg(sp, const unsigned int);
 	}
