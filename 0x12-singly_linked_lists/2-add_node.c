@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <string.h>
 #include <stdio.h>
 
 /**
@@ -10,10 +11,10 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t new_node;
+	list_t *new_node;
 	int len_str;
 
-	new_node = (struct *) malloc(sizeof(list_t));
+	new_node = (list_t *) malloc(sizeof(list_t));
 
 	if (new_node == NULL)
 	{
