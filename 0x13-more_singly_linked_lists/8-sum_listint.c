@@ -13,7 +13,6 @@ int sum_listint(listint_t *head)
 
 	if (head == NULL)
 	{
-		free(current);
 		return (0);
 	}
 
