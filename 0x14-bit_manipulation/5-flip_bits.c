@@ -9,7 +9,7 @@
  * @n: the first bit word
  * @m: the second bit word
  *
- * Return : the naming distance
+ * Return: the haming distance.
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
